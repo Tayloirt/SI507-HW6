@@ -102,6 +102,7 @@ The HTML element p has a background color that is assigned to gray. You can chan
 I first edited the document.querySelector('#cheer').innerHTML += "0 Canada<br>" to equal "0 Canada" instead of "Go Blue!" Then I changed the <li oncopy="copyFunction()">McGill University</li> line to have the function excute when McGill University is highlighted instead of The University of Michigan. I knew to edit these two lines because the cheer element effects every element in the school list and the oncopy="copyFunction()" would execute on whatever list element it was assigned to. 
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
+The handleClick function contains an alert function therefore since the wow button is assigned to the onlcick of the fucntion then that function will execute whenthe wow button is clicked.
 
 ```js
 function handleClick(){
