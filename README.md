@@ -78,15 +78,15 @@ Some JavaScript code
 ```
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-
+A comment in JavaScript is done by using the characters //   ie. //this is a comment
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
-
+In order for the JavaScript program to "run" you need to have an 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
-
+The console.log() and the alert() are simialr to the print function. You would use the console.log() to debug and the alert function to get user's attention.
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
-
+You will need to comment out the alert("hello");
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
-
+You can put your own name by changing the assignment of document.querySelector('h1').innerHTML to equal your name.
 * **What does the word `document` represent in this code? Explain briefly.**
 
 * **What is happening in line 12 ( 
