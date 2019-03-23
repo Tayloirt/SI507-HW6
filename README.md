@@ -132,11 +132,11 @@ Each message is apart of its own class, therefore since the color of the error c
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
 The line is helping I googled /^[a-zA-Z]+$/. 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
-The JavaScript conditional statments use brackets instead of semi colons. Also Python requires indentation. 
+The JavaScript conditional statments use brackets instead of semi colons, and Python requires indentation. 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
 The 1000 refers to the number of seconds the element takes to fade out. 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
-
+In the code below jquery provides functions that assist in determining whether or not the document is ready and loaded. The event executes once the document is "ready".
 ```js
 $(document).ready(function(){
     $("form").submit(function(event){
