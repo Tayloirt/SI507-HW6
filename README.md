@@ -92,11 +92,12 @@ You can put your own name by changing the assignment of document.querySelector('
 * **What is happening in line 12 ( 
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
+The element items is assigned to the number of list elements within the webpage. The attribute .length gets the number of elements.
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
-
+The background color of the page would be white.
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
-
+The HTML element p has a background color that is assigned to gray. You can change the color by assigning the background color to blue - background-color: #7db8fb;
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
