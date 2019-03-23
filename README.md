@@ -126,13 +126,15 @@ function handleClick(){
 * **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
+Each message is apart of its own class, therefore since the color of the error class is red the message displays as red. Since the color of good class is blue the message displays as blue.
+
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
-
+The line is helping I googled /^[a-zA-Z]+$/. 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
-
+The 1000 refers to the number of seconds the element takes to fade out. 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
 ```js
