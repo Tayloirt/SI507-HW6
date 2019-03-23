@@ -88,7 +88,7 @@ You will need to comment out the alert("hello");
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
 You can put your own name by changing the assignment of document.querySelector('h1').innerHTML to equal your name.
 * **What does the word `document` represent in this code? Explain briefly.**
-
+The word document represents the webpage. You can access HTML elements by using the word document.
 * **What is happening in line 12 ( 
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
