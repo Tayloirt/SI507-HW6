@@ -100,7 +100,7 @@ The background color of the page would be white.
 The HTML element p has a background color that is assigned to gray. You can change the color by assigning the background color to blue - background-color: #7db8fb;
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 I first edited the document.querySelector('#cheer').innerHTML += "0 Canada<br>" to equal "0 Canada" instead of "Go Blue!" 
-Then I changed the <li oncopy="copyFunction()">McGill University</li> line to have the function excute when McGill University is highlighted instead of The University of Michigan. I knew to edit these two lines because the cheer element effects every element in the school list and the oncopy="copyFunction()" would execute on whatever list element it was assigned to. 
+Then I changed the <li oncopy="copyFunction()"McGill University</li> line to have the function excute when McGill University is highlighted instead of The University of Michigan. I knew to edit these two lines because the cheer element effects every element in the school list and the oncopy="copyFunction()" would execute on whatever list element it was assigned to. 
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 The handleClick function contains an alert function therefore since the wow button is assigned to the onlcick of the fucntion then that function will execute whenthe wow button is clicked.
