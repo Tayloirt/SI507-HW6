@@ -99,7 +99,7 @@ The background color of the page would be white.
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
 The HTML element p has a background color that is assigned to gray. You can change the color by assigning the background color to blue - background-color: #7db8fb;
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
-I first edited the document.querySelector('#cheer').innerHTML += "0 Canada<br>" to equal "0 Canada" instead of "Go Blue!" Then I changed the <li oncopy="copyFunction()"McGill University</li> line to have the function excute when McGill University is highlighted instead of The University of Michigan. I knew to edit these two lines because the cheer element effects every element in the school list and the oncopy="copyFunction()" would execute on whatever list element it was assigned to. 
+I first edited the `document.querySelector('#cheer').innerHTML += "0 Canada<br>"` to equal "0 Canada" instead of "Go Blue!" Then I changed the `<li oncopy="copyFunction()"McGill University</li>` line to have the function excute when McGill University is highlighted instead of The University of Michigan. I knew to edit these two lines because the cheer element effects every element in the school list and the oncopy="copyFunction()" would execute on whatever list element it was assigned to. 
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 The handleClick function contains an alert function therefore since the wow button is assigned to the onlcick of the fucntion then that function will execute whenthe wow button is clicked.
@@ -130,7 +130,7 @@ Each message is apart of its own class, therefore since the color of the error c
 
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
-The line is helping I googled /^[a-zA-Z]+$/. 
+The line is helping validate user input to check for single or more than one fields that contain only alphabet characters. I googled /^[a-zA-Z]+$/ meaning for my answer. 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
 The JavaScript conditional statments use brackets instead of semi colons, and Python requires indentation. 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
