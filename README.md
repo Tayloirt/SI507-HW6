@@ -86,7 +86,7 @@ The console.log() and the alert() are simialr to the print function. You would u
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
 You will need to comment out the alert("hello");
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
-You can put your own name by changing the assignment of document.querySelector('h1').innerHTML to equal your name.
+You can put your own name by changing the assignment of `document.querySelector('h1').innerHTML` to equal your name.
 * **What does the word `document` represent in this code? Explain briefly.**
 The word document represents the webpage. You can access HTML elements by using the word document.
 * **What is happening in line 12 ( 
