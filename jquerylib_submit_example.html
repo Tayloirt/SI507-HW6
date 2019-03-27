@@ -16,13 +16,19 @@
 $(document).ready(function(){
     $("form").submit(function(event){
         var regex = /^[a-zA-Z]+$/;
-        var currentValue = $("#oneWord").val();
-        if(regex.test(currentValue) == false){
-            $("#result").html('<p class="error">Not valid!</p>').show().fadeOut(10000);
-            // Preventing form submission
-            event.preventDefault();
+        //var currentValue = document.querySelector("#oneWord").val();
+        var currentValue = $( "#oneWord" ).val();
+        //document.querySelector("#oneWord").val();
+        console.log(currentValue);
+
+        if(currentValue == "hello"){
+            $("#result").html('<p class="good">Hello to you too!</p>').show(1000);
+            
+            
         } else {
-            $("#result").html('<p class="good">Nice!</p>').show().fadeOut(10000);
+        
+            $("#result").html('<p class="error">Not valid!</p>').show(1000);
+            
         }
     });
 });
